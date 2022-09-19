@@ -1,0 +1,9 @@
+version: '3.8'
+services: 
+  naveenapptest:
+    image: naveenmobiapp:v1
+    build: .
+    container_name: naveenc1
+    ports:
+    - "1567:80"
+    restart: always
